@@ -1,0 +1,214 @@
+.parallax-hero {
+  position: relative;
+  width: auto;
+  height: 100vh;
+  min-width: 1400px;
+  overflow: hidden;
+  object-fit: cover;
+  /* background-color: black; */
+}
+
+.bg-img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.bg-img-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: visible;
+  scale: 1.9;
+  transform: translate(-0%, -23%);
+}
+
+/*  */
+.fog-7 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.fog-7-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: visible;
+  scale: 1;
+  transform: translate(0%, 0%);
+}
+
+/*  */
+.mountain-10 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.mountain-10-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: visible;
+  scale: 0.59;
+  transform: translate(30%, 5%);
+}
+
+/*  */
+.fog-6 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  overflow: hidden;
+}
+
+.fog-6-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: visible;
+  scale: 0.74;
+  transform: translate(0%, 20%);
+}
+
+/*  */
+.mountain-9 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.mountain-9-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: visible;
+  scale: 0.32;
+  transform: translate(-100%, 40%);
+}
+
+/*  */
+.mountain-8 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 6;
+  overflow: hidden;
+}
+
+.mountain-8-img {
+  /* height: 100%;
+  width: 100%; */
+  object-fit: cover;
+  overflow: visible;
+  scale: 0.55;
+  bottom: 0;
+  position: fixed;
+  /* transform: translate(-15%, 18%); */
+}
+
+/*  */
+.fog-5 {
+  position: absolute;
+  width: 53vw;
+  height: 50vh;
+  z-index: 7;
+}
+
+.fog-5-img {
+  transform: translate(70%, 90%);
+}
+
+/*  */
+.mountain-7 {
+  position: absolute;
+  width: 33vw;
+  height: 70vh;
+  z-index: 8;
+}
+
+.mountain-7-img {
+  transform: translate(180%, 45%);
+}
+
+/*  */
+.text {
+  position: absolute;
+  z-index: 9;
+  top: calc(50%);
+  left: calc(50%);
+  transform: translate(-50%, -100%);
+  text-align: center;
+  /* text-transform: uppercase; */
+  color: white
+}
+
+.text h2 {
+  font-weight: 300;
+  font-size: 6.5rem;
+  line-height: 2;
+}
+
+.text h1 {
+  font-weight: 800;
+  font-size: 8rem;
+  line-height: 0.88
+}
+
+/*  */
+.mountain-6 {
+  position: absolute;
+  width: 30vw;
+  height: 100vh;
+  z-index: 4;
+}
+
+.mountain-6-img {
+  transform: translate(240%, 10%);
+}
+
+/*  */
+.fog-4 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 6;
+}
+
+.fog-4-img {
+  transform: translate(0%, 0%);
+}
+
+/*  */
+.mountain-5 {
+  position: absolute;
+  width: 35vw;
+  height: 45vh;
+  z-index: 9;
+}
+
+.mountain-5-img {
+  transform: translate(130%, 133%);
+}
+
+/*  */
+.fog-3 {
+  position: absolute;
+  width: 35vw;
+  height: 45vh;
+  z-index: 9;
+}
+
+.fog-3-img {
+  transform: translate(130%, 133%);
+}
